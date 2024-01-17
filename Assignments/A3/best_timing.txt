@@ -1,0 +1,2 @@
+2.55s
+Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz

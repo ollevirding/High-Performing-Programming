@@ -1,0 +1,36 @@
+{
+    "files.associations": {
+        "math.h": "c",
+        "omp.h": "c",
+    },
+
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/",
+                "/usr/include/c++/7.2.0",
+                "/usr/include/c++/7.2.0/x86_64-pc-linux-gnu",
+                "/usr/local/include",
+                "/usr/lib/clang/5.0.0/include",
+                "/usr/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/omp.h",
+                    "/usr/include/c++/7.2.0",
+                    "/usr/include/c++/7.2.0/x86_64-pc-linux-gnu",
+                    "/usr/local/include",
+                    "/usr/lib/clang/5.0.0/include",
+                    "/usr/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+        ]
+}

@@ -1,0 +1,967 @@
+desc: (none)
+cmd: ./galsim
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=494540
+mem_heap_B=9600
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=523536
+mem_heap_B=14168
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n3: 14168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 9600 0x1094DE: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 4096 0x4B07C23: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4B16D5F: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4B14543: _IO_file_xsgetn (fileops.c:1287)
+    n1: 4096 0x4B08C28: fread (iofread.c:38)
+     n0: 4096 0x109524: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 472 0x4B086CD: __fopen_internal (iofopen.c:65)
+  n1: 472 0x4B086CD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1094F4: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+#-----------
+snapshot=3
+#-----------
+time=538197
+mem_heap_B=14544
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=553547
+mem_heap_B=19222
+mem_heap_extra_B=154
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=567806
+mem_heap_B=35646
+mem_heap_extra_B=130
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=588509
+mem_heap_B=79716
+mem_heap_extra_B=204
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=603932
+mem_heap_B=79996
+mem_heap_extra_B=252
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=621759
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=detailed
+n7: 80631 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21168 0x4CC0204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21168 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21168 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 21168 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 21168 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 21168 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 18816 0x48921A0: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 18816 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 18816 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 16384 0x4891DCE: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 16384 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 16384 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 9600 0x1094DE: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 8276 0x4CC04FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 8276 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 8276 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 8276 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 8276 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 8276 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 4704 0x4891A41: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 4704 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 4704 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 1683 in 30 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=646299
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=673569
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=688697
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=710513
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=734311
+mem_heap_B=80559
+mem_heap_extra_B=329
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=755379
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=779922
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=801738
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=825047
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=846863
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=870661
+mem_heap_B=80559
+mem_heap_extra_B=329
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=891729
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=916272
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=938088
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=961397
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=983213
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1007011
+mem_heap_B=80559
+mem_heap_extra_B=329
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1028079
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1052622
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1074438
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1097747
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1119563
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1143361
+mem_heap_B=80559
+mem_heap_extra_B=329
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1164429
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1188972
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1210788
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1234097
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1255913
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1279711
+mem_heap_B=80559
+mem_heap_extra_B=329
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1300779
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1325322
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1347138
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1370447
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1392263
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1416061
+mem_heap_B=80559
+mem_heap_extra_B=329
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1437129
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1461672
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1483488
+mem_heap_B=80607
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1506797
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1528613
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1552411
+mem_heap_B=80559
+mem_heap_extra_B=329
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1566791
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1581075
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=detailed
+n7: 80631 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21168 0x4CC0204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21168 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21168 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 21168 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 21168 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 21168 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 18816 0x48921A0: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 18816 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 18816 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 16384 0x4891DCE: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 16384 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 16384 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 9600 0x1094DE: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 8276 0x4CC04FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 8276 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 8276 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 8276 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 8276 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 8276 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 4704 0x4891A41: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 4704 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 4704 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 1683 in 30 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=1595485
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1610423
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1624707
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1639117
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1654055
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1668339
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1682749
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=1697687
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1711971
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1726381
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=detailed
+n7: 80591 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21168 0x4CC0204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21168 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21168 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 21168 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 21168 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 21168 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 18816 0x48921A0: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 18816 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 18816 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 16384 0x4891DCE: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 16384 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 16384 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 9600 0x1094DE: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 8276 0x4CC04FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 8276 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 8276 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 8276 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 8276 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 8276 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 4704 0x4891A41: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 4704 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 4704 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 1643 in 30 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=1741319
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1755603
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1770013
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1784951
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1799235
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1813645
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1828583
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=1842867
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1857277
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1872215
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=detailed
+n7: 80583 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21168 0x4CC0204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21168 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21168 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 21168 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 21168 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 21168 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 18816 0x48921A0: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 18816 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 18816 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 16384 0x4891DCE: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 16384 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 16384 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 9600 0x1094DE: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 8276 0x4CC04FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 8276 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 8276 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 8276 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 8276 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 8276 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 4704 0x4891A41: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 4704 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 4704 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 1635 in 30 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=72
+#-----------
+time=1886499
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=1900909
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=1915847
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=1930131
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=1944541
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=1959479
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=1973763
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=1988173
+mem_heap_B=80591
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=2003111
+mem_heap_B=80583
+mem_heap_extra_B=345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=2017395
+mem_heap_B=80631
+mem_heap_extra_B=361
+mem_stacks_B=0
+heap_tree=detailed
+n7: 80631 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21168 0x4CC0204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21168 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21168 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 21168 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 21168 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 21168 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 18816 0x48921A0: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 18816 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 18816 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 16384 0x4891DCE: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 16384 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 16384 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 9600 0x1094DE: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 8276 0x4CC04FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 8276 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 8276 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 8276 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 8276 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 8276 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 4704 0x4891A41: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 4704 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 4704 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 1683 in 30 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=82
+#-----------
+time=2056423
+mem_heap_B=80779
+mem_heap_extra_B=341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=1292452453
+mem_heap_B=80779
+mem_heap_extra_B=341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=2582848540
+mem_heap_B=80987
+mem_heap_extra_B=349
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=3873244640
+mem_heap_B=81195
+mem_heap_extra_B=357
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=5163640753
+mem_heap_B=81403
+mem_heap_extra_B=365
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=5163640995
+mem_heap_B=81419
+mem_heap_extra_B=389
+mem_stacks_B=0
+heap_tree=detailed
+n8: 81419 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21168 0x4CC0204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21168 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21168 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 21168 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 21168 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 21168 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 18816 0x48921A0: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 18816 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 18816 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 16384 0x4891DCE: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 16384 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 16384 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 9600 0x1094DE: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 8276 0x4CC04FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 8276 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 8276 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 8276 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 8276 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 8276 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 4704 0x4891A41: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 4704 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 4704 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 1639 in 31 places, all below massif's threshold (1.00%)
+ n1: 832 0x48A3EAE: _XEnq (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 832 0x48A6AB6: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n0: 832 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=88
+#-----------
+time=6454036879
+mem_heap_B=81611
+mem_heap_extra_B=373
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=7744433018
+mem_heap_B=81819
+mem_heap_extra_B=381
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=9034829170
+mem_heap_B=82027
+mem_heap_extra_B=389
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=9034829679
+mem_heap_B=82235
+mem_heap_extra_B=397
+mem_stacks_B=0
+heap_tree=peak
+n8: 82235 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21168 0x4CC0204: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21168 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21168 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 21168 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 21168 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 21168 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 18816 0x48921A0: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 18816 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 18816 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 16384 0x4891DCE: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 16384 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 16384 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n0: 9600 0x1094DE: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 8276 0x4CC04FB: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 8276 0x4CC0E6B: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 8276 0x48A1DE9: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 8276 0x4891A78: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 8276 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 8276 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 4704 0x4891A41: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n1: 4704 0x109E21: InitializeGraphics (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 4704 0x109546: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+ n1: 1664 0x48A3EAE: _XEnq (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+  n2: 1664 0x48A6AB6: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+   n1: 1456 0x48A6B69: _XEventsQueued (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+    n1: 1456 0x4881B64: XCheckMaskEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+     n1: 1456 0x10A10F: CheckForQuit (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+      n0: 1456 0x109779: main (in /home/olle/Desktop/HPP/Assignments/A3/Assignment3/c_files/galsim)
+   n0: 208 in 1 place, below massif's threshold (1.00%)
+ n0: 1623 in 31 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=92
+#-----------
+time=10325225335
+mem_heap_B=82235
+mem_heap_extra_B=397
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=11615621513
+mem_heap_B=82443
+mem_heap_extra_B=405
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=12906017704
+mem_heap_B=82651
+mem_heap_extra_B=413
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=95
+#-----------
+time=12906032253
+mem_heap_B=14624
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=96
+#-----------
+time=12906063197
+mem_heap_B=4728
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty

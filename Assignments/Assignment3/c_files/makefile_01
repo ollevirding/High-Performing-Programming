@@ -1,0 +1,15 @@
+CFLAGS=-Wall -g
+INCLUDES=-I/opt/X11/include
+LDFLAGS=-L/opt/X11/lib -lX11 -lm
+
+GalSim: GalSim.o graphics.o
+	gcc -o GalSim GalSim.o graphics.o $(LDFLAGS)
+
+GalSim.o: GalSim.c graphics.h
+	gcc $(CFLAGS) $(INCLUDES) -c GalSim.c
+
+graphics.o: graphics.c graphics.h
+	gcc $(CFLAGS) $(INCLUDES) -c graphics.c
+
+clean:
+	rm -f ./GalSim *.o

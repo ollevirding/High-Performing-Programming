@@ -1,0 +1,4 @@
+1.79s
+1.70s
+AMD Opteron(tm) Processor 6282 SE
+32
